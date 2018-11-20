@@ -1,7 +1,31 @@
 server:
-  port: 8003
-  
+  port: 8998
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9001/eureka
+
+jisp:
+  name: stephen
 spring:
   application:
-    name: cloud-web-service03
+    name: cloud-service03
     
+  redis:
+    host: 192.168.8.176
+    port: 6379
+tcloud:
+  context:
+    system-init:
+      - serviceInstanceInit
+      - apiInit
+    api:
+      base-package-path:
+        - com.cloud.service
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
