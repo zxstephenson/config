@@ -2,3 +2,8 @@ from: dev2.0
 client:
   config:
     name: fffff
+
+    
+test:
+  user:
+    username: stephen
