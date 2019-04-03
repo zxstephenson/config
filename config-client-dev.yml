@@ -2,12 +2,10 @@ from: dev2.0
 client:
   config:
     name: fffff
+    use-gray-config: true
 
     
 test:
   user:
     username: zhangxin
 
-client:
-  config:
-    use-gray-config: true
