@@ -7,3 +7,7 @@ client:
 test:
   user:
     username: zhangxin
+
+client:
+  config:
+    use-gray-config: false
