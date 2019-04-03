@@ -10,4 +10,4 @@ test:
 
 client:
   config:
-    use-gray-config: false
+    use-gray-config: true
