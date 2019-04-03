@@ -2,7 +2,7 @@ from: dev2.0
 client:
   config:
     name: fffff
-    use-gray-config: true
+    use-gray-config: false
 
     
 test:
