@@ -1,3 +1,5 @@
 hello
 
 branch dev
+
+conflict branch feature1 
