@@ -1,9 +1,0 @@
-hello
-
-branch dev
-
-
-conflict branch master
-
-conflict branch feature1 
-
